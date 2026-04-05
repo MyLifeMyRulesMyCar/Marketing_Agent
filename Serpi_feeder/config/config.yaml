@@ -1,0 +1,24 @@
+{
+  "country": "LK",
+  "time_range": "today 3-m",
+  "markets": {
+    "sbc": [
+      "raspberry pi",
+      "orange pi",
+      "single board computer",
+      "esp32 board"
+    ],
+    "solar": [
+      "solar panel",
+      "solar inverter",
+      "solar battery",
+      "off grid solar"
+    ],
+    "home_automation": [
+      "home automation",
+      "smart home",
+      "zigbee",
+      "home assistant"
+    ]
+  }
+}
