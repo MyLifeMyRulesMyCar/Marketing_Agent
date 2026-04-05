@@ -1,0 +1,25 @@
+{
+  "monthly_usage": {
+    "2026-04": 3
+  },
+  "calls": [
+    {
+      "timestamp": "2026-04-05T18:20:10.826223",
+      "query": "raspberry pi,orange pi,radxa,esp32,single board computer",
+      "data_type": "TIMESERIES",
+      "cost": 1
+    },
+    {
+      "timestamp": "2026-04-05T18:20:20.230839",
+      "query": "solar panel,solar inverter,solar battery,off grid solar,solar charge controller",
+      "data_type": "TIMESERIES",
+      "cost": 1
+    },
+    {
+      "timestamp": "2026-04-05T18:20:25.148601",
+      "query": "home assistant,home automation,smart home,zigbee,matter protocol",
+      "data_type": "TIMESERIES",
+      "cost": 1
+    }
+  ]
+}
