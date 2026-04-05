@@ -24,6 +24,7 @@ feeds:
   - https://hackaday.com/blog/feed/
   - https://www.hackster.io/news.atom
   - https://rss.hnxyz.net/
+  - https://www.jeffgeerling.com/blog.xml
 
 # How many top articles to include in the weekly digest
 weekly_top_n: 20
