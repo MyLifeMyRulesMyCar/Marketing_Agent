@@ -9,3 +9,4 @@ openpyxl
 tiktoken
 sentence-transformers
 pyyaml
+chromadb
