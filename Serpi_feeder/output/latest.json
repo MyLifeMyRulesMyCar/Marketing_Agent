@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-04-05T18:20:08.477145",
-  "profile": "quick",
+  "run_date": "2026-04-06T17:49:16.590525",
+  "profile": "standard",
   "time_range": "today 12-m",
   "geo": "LK",
   "markets": {
@@ -1426,6 +1426,1401 @@
               "is_partial": false
             }
           ]
+        },
+        "raspberry pi 5": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 30,
+            "avg": 1.1,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Mar 29 – Apr 4, 2026",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 29,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 30,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
+        },
+        "orange pi 5": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 0,
+            "avg": 0.0,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Apr 6 – 12, 2025",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
+        },
+        "rockchip rk3588": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 100,
+            "avg": 1.9,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Feb 8 – 14, 2026",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 100,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
+        },
+        "banana pi": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 0,
+            "avg": 0.0,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Apr 6 – 12, 2025",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
+        },
+        "pine64": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 0,
+            "avg": 0.0,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Apr 6 – 12, 2025",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
         }
       },
       "ranking": [
@@ -1448,6 +2843,26 @@
           "trend": "falling",
           "peak_date": "Sep 28 – Oct 4, 2025",
           "data_points": 54
+        },
+        {
+          "keyword": "rockchip rk3588",
+          "min": 0,
+          "max": 100,
+          "avg": 1.9,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Feb 8 – 14, 2026",
+          "data_points": 53
+        },
+        {
+          "keyword": "raspberry pi 5",
+          "min": 0,
+          "max": 30,
+          "avg": 1.1,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Mar 29 – Apr 4, 2026",
+          "data_points": 53
         },
         {
           "keyword": "orange pi",
@@ -1478,6 +2893,36 @@
           "trend": "flat",
           "peak_date": "Mar 30 – Apr 5, 2025",
           "data_points": 54
+        },
+        {
+          "keyword": "orange pi 5",
+          "min": 0,
+          "max": 0,
+          "avg": 0.0,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Apr 6 – 12, 2025",
+          "data_points": 53
+        },
+        {
+          "keyword": "banana pi",
+          "min": 0,
+          "max": 0,
+          "avg": 0.0,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Apr 6 – 12, 2025",
+          "data_points": 53
+        },
+        {
+          "keyword": "pine64",
+          "min": 0,
+          "max": 0,
+          "avg": 0.0,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Apr 6 – 12, 2025",
+          "data_points": 53
         }
       ]
     },
@@ -2903,6 +4348,1401 @@
               "is_partial": false
             }
           ]
+        },
+        "lifepo4 battery": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 63,
+            "avg": 5.3,
+            "latest": 52,
+            "trend": "rising",
+            "peak_date": "Aug 10 – 16, 2025",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 63,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 54,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 56,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 55,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 52,
+              "is_partial": false
+            }
+          ]
+        },
+        "mppt controller": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 24,
+            "avg": 0.9,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Mar 22 – 28, 2026",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 24,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 24,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
+        },
+        "hybrid inverter": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 100,
+            "avg": 10.3,
+            "latest": 89,
+            "trend": "rising",
+            "peak_date": "Mar 15 – 21, 2026",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 72,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 54,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 49,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 100,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 93,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 87,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 89,
+              "is_partial": false
+            }
+          ]
+        },
+        "grid tie inverter": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 0,
+            "avg": 0.0,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Apr 6 – 12, 2025",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
+        },
+        "solar water pump": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 62,
+            "avg": 2.0,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Aug 17 – 23, 2025",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 62,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 26,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 20,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
         }
       },
       "ranking": [
@@ -2917,6 +5757,16 @@
           "data_points": 54
         },
         {
+          "keyword": "hybrid inverter",
+          "min": 0,
+          "max": 100,
+          "avg": 10.3,
+          "latest": 89,
+          "trend": "rising",
+          "peak_date": "Mar 15 – 21, 2026",
+          "data_points": 53
+        },
+        {
           "keyword": "solar battery",
           "min": 0,
           "max": 50,
@@ -2925,6 +5775,16 @@
           "trend": "rising",
           "peak_date": "Mar 22 – 28, 2026",
           "data_points": 54
+        },
+        {
+          "keyword": "lifepo4 battery",
+          "min": 0,
+          "max": 63,
+          "avg": 5.3,
+          "latest": 52,
+          "trend": "rising",
+          "peak_date": "Aug 10 – 16, 2025",
+          "data_points": 53
         },
         {
           "keyword": "solar inverter",
@@ -2937,6 +5797,16 @@
           "data_points": 54
         },
         {
+          "keyword": "solar water pump",
+          "min": 0,
+          "max": 62,
+          "avg": 2.0,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Aug 17 – 23, 2025",
+          "data_points": 53
+        },
+        {
           "keyword": "off grid solar",
           "min": 0,
           "max": 23,
@@ -2947,6 +5817,16 @@
           "data_points": 54
         },
         {
+          "keyword": "mppt controller",
+          "min": 0,
+          "max": 24,
+          "avg": 0.9,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Mar 22 – 28, 2026",
+          "data_points": 53
+        },
+        {
           "keyword": "solar charge controller",
           "min": 0,
           "max": 13,
@@ -2955,6 +5835,16 @@
           "trend": "flat",
           "peak_date": "Jun 29 – Jul 5, 2025",
           "data_points": 54
+        },
+        {
+          "keyword": "grid tie inverter",
+          "min": 0,
+          "max": 0,
+          "avg": 0.0,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Apr 6 – 12, 2025",
+          "data_points": 53
         }
       ]
     },
@@ -4380,6 +7270,1401 @@
               "is_partial": false
             }
           ]
+        },
+        "esphome": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 10,
+            "avg": 0.2,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Mar 29 – Apr 4, 2026",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 10,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
+        },
+        "tasmota": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 0,
+            "avg": 0.0,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Apr 6 – 12, 2025",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
+        },
+        "node red": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 93,
+            "avg": 1.9,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Jan 18 – 24, 2026",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 93,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 6,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
+        },
+        "mqtt": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 100,
+            "avg": 2.9,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "May 4 – 10, 2025",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 100,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 28,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 26,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
+        },
+        "zwave": {
+          "layer": "extended",
+          "summary": {
+            "min": 0,
+            "max": 0,
+            "avg": 0.0,
+            "latest": 0,
+            "trend": "flat",
+            "peak_date": "Apr 6 – 12, 2025",
+            "data_points": 53
+          },
+          "timeline": [
+            {
+              "date": "Apr 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 27 – May 3, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 4 – 10, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 11 – 17, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 18 – 24, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "May 25 – 31, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 1 – 7, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 8 – 14, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 15 – 21, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 22 – 28, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jun 29 – Jul 5, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 6 – 12, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 13 – 19, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 20 – 26, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jul 27 – Aug 2, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 3 – 9, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 10 – 16, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 17 – 23, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 24 – 30, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Aug 31 – Sep 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Sep 28 – Oct 4, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 5 – 11, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 12 – 18, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 19 – 25, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Oct 26 – Nov 1, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 2 – 8, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 9 – 15, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 16 – 22, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 23 – 29, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Nov 30 – Dec 6, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 7 – 13, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 14 – 20, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 21 – 27, 2025",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Dec 28, 2025 – Jan 3, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 4 – 10, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 11 – 17, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 18 – 24, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Jan 25 – 31, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Feb 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 1 – 7, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 8 – 14, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 15 – 21, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 22 – 28, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Mar 29 – Apr 4, 2026",
+              "value": 0,
+              "is_partial": false
+            },
+            {
+              "date": "Apr 5 – 11, 2026",
+              "value": 0,
+              "is_partial": false
+            }
+          ]
         }
       },
       "ranking": [
@@ -4394,6 +8679,16 @@
           "data_points": 54
         },
         {
+          "keyword": "mqtt",
+          "min": 0,
+          "max": 100,
+          "avg": 2.9,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "May 4 – 10, 2025",
+          "data_points": 53
+        },
+        {
           "keyword": "home assistant",
           "min": 0,
           "max": 37,
@@ -4402,6 +8697,16 @@
           "trend": "flat",
           "peak_date": "Nov 30 – Dec 6, 2025",
           "data_points": 54
+        },
+        {
+          "keyword": "node red",
+          "min": 0,
+          "max": 93,
+          "avg": 1.9,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Jan 18 – 24, 2026",
+          "data_points": 53
         },
         {
           "keyword": "home automation",
@@ -4424,6 +8729,16 @@
           "data_points": 54
         },
         {
+          "keyword": "esphome",
+          "min": 0,
+          "max": 10,
+          "avg": 0.2,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Mar 29 – Apr 4, 2026",
+          "data_points": 53
+        },
+        {
           "keyword": "matter protocol",
           "min": 0,
           "max": 0,
@@ -4432,6 +8747,26 @@
           "trend": "flat",
           "peak_date": "Mar 30 – Apr 5, 2025",
           "data_points": 54
+        },
+        {
+          "keyword": "tasmota",
+          "min": 0,
+          "max": 0,
+          "avg": 0.0,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Apr 6 – 12, 2025",
+          "data_points": 53
+        },
+        {
+          "keyword": "zwave",
+          "min": 0,
+          "max": 0,
+          "avg": 0.0,
+          "latest": 0,
+          "trend": "flat",
+          "peak_date": "Apr 6 – 12, 2025",
+          "data_points": 53
         }
       ]
     }

@@ -5,3 +5,10 @@ __pycache__/
 # Virtual env
 .venv/
 .env
+
+.env
+*.env
+.env.*
+
+data/
+output/

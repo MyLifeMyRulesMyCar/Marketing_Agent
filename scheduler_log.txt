@@ -231,3 +231,68 @@ Running all tasks once (test mode)
 [2026-04-06 17:34:41] 
 =======================================================
 [2026-04-06 17:34:41] Test run complete — 6 tasks executed
+[2026-04-06 17:49:09] Pre-flight check...
+[2026-04-06 17:49:09]    [OK] Serpi_feeder/.env -> SERPAPI_KEY
+[2026-04-06 17:49:09]    [OK] tavily_feeder/.env -> TAVILY_API_KEY
+[2026-04-06 17:49:09]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_ID
+[2026-04-06 17:49:09]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_SECRET
+[2026-04-06 17:49:09] All credentials found.
+[2026-04-06 17:49:09] Running all tasks once (test mode)
+[2026-04-06 17:49:09] =======================================================
+[2026-04-06 17:49:09] 
+────────────────────────────────────────
+[2026-04-06 17:49:09] [START] RSS Feeder — daily collect
+[2026-04-06 17:49:15] [OK]     RSS Feeder — daily collect (6s)
+[2026-04-06 17:49:15]          [3/4] Removing duplicates...
+[2026-04-06 17:49:15]          Deduplicated: 43 → 43 unique articles
+[2026-04-06 17:49:15]          [4/4] Storing to database...
+[2026-04-06 17:49:15]          Saved 0 new articles, skipped 43 duplicates
+[2026-04-06 17:49:15]          ✅ Done. 43 new articles stored.
+[2026-04-06 17:49:15] 
+────────────────────────────────────────
+[2026-04-06 17:49:15] [START] Weekly Digest — top articles
+[2026-04-06 17:49:15] [OK]     Weekly Digest — top articles (0s)
+[2026-04-06 17:49:15]               https://www.cnx-software.com/2026/04/04/velxio-open-source-self-hosted-arduino-raspberry-pi-and-esp32-simulator/
+[2026-04-06 17:49:15]            4. [3 pts] DIY ESP32-S3 Internet radio features Winamp-styled user interface
+[2026-04-06 17:49:15]               https://www.cnx-software.com/2026/03/30/diy-esp32-s3-internet-radio-features-winamp-styled-user-interface/
+[2026-04-06 17:49:15]            5. [3 pts] M5Stack Stamp-P4 – A tiny ESP32-P4 USB-C board with optional Wi-Fi 6 and Bluetoo
+[2026-04-06 17:49:15]               https://www.cnx-software.com/2026/03/29/m5stack-stamp-p4-a-tiny-esp32-p4-usb-c-board-with-optional-wi-fi-6-and-bluetooth-5-4/
+[2026-04-06 17:49:15] 
+────────────────────────────────────────
+[2026-04-06 17:49:15] [START] Serpi Feeder — Google Trends
+[2026-04-06 17:49:30] [OK]     Serpi Feeder — Google Trends (14s)
+[2026-04-06 17:49:30]           📊 Credit Status — April 2026
+[2026-04-06 17:49:30]          ==================================================
+[2026-04-06 17:49:30]            [░░░░░░░░░░░░░░░░░░░░] 2.4%
+[2026-04-06 17:49:30]            Used: 6 / 250  |  Remaining: 244
+[2026-04-06 17:49:30]          ==================================================
+[2026-04-06 17:49:30] 
+────────────────────────────────────────
+[2026-04-06 17:49:30] [START] Tavily Feeder — competitor research
+[2026-04-06 17:50:29] [OK]     Tavily Feeder — competitor research (59s)
+[2026-04-06 17:50:29]            Query: Raspberry Pi 5 vs competitors benchmark
+[2026-04-06 17:50:29]              • Raspberry Pi 5 squares off against a scrawny Intel CPU
+[2026-04-06 17:50:29]                https://www.tomshardware.com/raspberry-pi/raspberry-pi-5-squares-off-against-a-scrawny-intel-cpu
+[2026-04-06 17:50:29]              • Raspberry Pi 5 Benchmarks: Significantly Better Performance ...
+[2026-04-06 17:50:29]                https://www.phoronix.com/forums/forum/hardware/processors-memory/1412037-raspberry-pi-5-benchmarks-significantly-better-performance-improved-i-o/page11
+[2026-04-06 17:50:29] 
+────────────────────────────────────────
+[2026-04-06 17:50:29] [START] Reddit Watcher — subreddit scraping
+[2026-04-06 17:52:21] [OK]     Reddit Watcher — subreddit scraping (112s)
+[2026-04-06 17:52:21]            1. [1080 pts] r/raspberry_pi — FlightTrackr alerts me whenever a plane flies overhead, and tells me i
+[2026-04-06 17:52:21]            2. [988 pts] r/raspberry_pi — I built a Pi Zero 2 W into a walnut and brass thermal printer - 16 pri
+[2026-04-06 17:52:21]            3. [927 pts] r/homeassistant — New to HomeAssistant, building dashboards with Claude
+[2026-04-06 17:52:21]            4. [805 pts] r/esp32 — f32 - one of the smallest ESP32 dev boards
+[2026-04-06 17:52:21]            5. [779 pts] r/homeassistant — Finally live!
+[2026-04-06 17:52:21] 
+────────────────────────────────────────
+[2026-04-06 17:52:21] [START] Vector DB — update index
+[2026-04-06 17:52:58] [OK]     Vector DB — update index (37s)
+[2026-04-06 17:52:58]             Sources    : 3
+[2026-04-06 17:52:58]             Indexed sources:
+[2026-04-06 17:52:58]               • radxa_rock5a_product_brief.pdf — 20 chunks (2026-04-06)
+[2026-04-06 17:52:58]               • radxa_rock5c_product_brief.pdf — 20 chunks (2026-04-06)
+[2026-04-06 17:52:58]               • radxa_rock_pi_s_product_brief_Revision_1.2.pdf — 13 chunks (2026-04-06)
+[2026-04-06 17:52:58] 
+=======================================================
+[2026-04-06 17:52:58] Test run complete — 6 tasks executed
