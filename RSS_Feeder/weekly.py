@@ -26,7 +26,7 @@ def generate_weekly_digest():
 
     # Get ISO week label, e.g. "2025-W03"
     now = datetime.now()
-    week_label = now.strftime("%Y-W%W")
+    week_label = now.strftime("%G-W%V")
     since_date = (now - timedelta(days=7)).strftime("%Y-%m-%d")
 
     print(f"\n📰 Generating weekly digest for {week_label}")

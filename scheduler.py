@@ -1,17 +1,15 @@
 """
-scheduler.py — Automated scheduler for Marketing Agents components.
+scheduler.py — Marketing Agents Automated Scheduler
+Runs daily between 8PM-9PM window. Week starts Monday.
 
-Runs various data collection and processing tasks on schedules:
-- RSS Feeder: Daily data collection
-- Weekly digest: Weekly summary generation
-- Serpi Feeder: Weekly Google Trends data
-- Tavily Feeder: Weekly research data
-- Reddit Watcher: Weekly Reddit scraping
-- Vector DB: Weekly database updates
+Fixes:
+  - Windows cp1252 emoji crash → forces UTF-8 encoding on all subprocesses
+  - .env files in subfolders → loaded explicitly before each task
 
 Usage:
-    python scheduler.py              # Run scheduler (blocks)
-    python scheduler.py --run-once   # Run all tasks once, then exit
+  python scheduler.py             # start the scheduler (runs forever)
+  python scheduler.py --run-once  # run everything once right now (for testing)
+  python scheduler.py --status    # show next scheduled run times
 """
 
 import os
@@ -21,184 +19,262 @@ import subprocess
 import argparse
 from datetime import datetime
 from pathlib import Path
+from dotenv import load_dotenv
 
-# Add project root to path
+import schedule
+
 PROJECT_ROOT = Path(__file__).parent
-sys.path.insert(0, str(PROJECT_ROOT))
+LOG_FILE     = PROJECT_ROOT / "scheduler_log.txt"
 
-def run_command(command, cwd=None, description=""):
-    """Run a command and return success status."""
+
+# ── Logging ───────────────────────────────────────────────────
+
+def log(msg: str):
+    ts   = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    line = f"[{ts}] {msg}"
+    # stdout: replace unencodable chars so the terminal never crashes
+    print(line.encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8", errors="replace"))
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(line + "\n")
+
+
+# ── Env loader ────────────────────────────────────────────────
+
+def load_env_for(subfolder: str):
+    """Load the .env file from a subfolder into the current process."""
+    env_path = PROJECT_ROOT / subfolder / ".env"
+    if env_path.exists():
+        load_dotenv(env_path, override=True)
+
+
+# ── Task runner ───────────────────────────────────────────────
+
+def run_task(name: str, command: str, cwd: Path, env_subfolder: str = None) -> bool:
+    log(f"[START] {name}")
+    start = datetime.now()
+
+    # Build environment: inherit current env + force UTF-8
+    env = os.environ.copy()
+    env["PYTHONIOENCODING"] = "utf-8"
+    env["PYTHONUTF8"]       = "1"
+
+    # Load the component's .env into the subprocess environment
+    if env_subfolder:
+        env_path = PROJECT_ROOT / env_subfolder / ".env"
+        if env_path.exists():
+            # Parse the .env manually and inject into env dict
+            with open(env_path, encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#") and "=" in line:
+                        key, _, val = line.partition("=")
+                        key = key.strip()
+                        val = val.strip().strip('"').strip("'")
+                        if key and val:
+                            env[key] = val
+
     try:
-        print(f"\n🔄 {description}")
-        print(f"   Command: {command}")
-        print(f"   CWD: {cwd or os.getcwd()}")
-
         result = subprocess.run(
             command,
             shell=True,
-            cwd=cwd,
+            cwd=str(cwd),
             capture_output=True,
             text=True,
-            timeout=3600  # 1 hour timeout
+            encoding="utf-8",
+            errors="replace",
+            timeout=3600,
+            env=env,
         )
+        elapsed = (datetime.now() - start).seconds
 
         if result.returncode == 0:
-            print(f"✅ {description} completed successfully")
-            if result.stdout.strip():
-                print(f"   Output: {result.stdout.strip()}")
+            log(f"[OK]     {name} ({elapsed}s)")
+            lines = [l for l in result.stdout.strip().splitlines() if l.strip()]
+            for line in lines[-5:]:
+                log(f"         {line}")
+            return True
         else:
-            print(f"❌ {description} failed with code {result.returncode}")
-            if result.stderr.strip():
-                print(f"   Error: {result.stderr.strip()}")
-
-        return result.returncode == 0
+            log(f"[FAIL]   {name} (exit {result.returncode}, {elapsed}s)")
+            stderr_lines = (result.stderr or "").strip().splitlines()
+            for line in stderr_lines[-5:]:
+                log(f"         {line}")
+            return False
 
     except subprocess.TimeoutExpired:
-        print(f"⏰ {description} timed out after 1 hour")
+        log(f"[TIMEOUT] {name} (over 1 hour)")
         return False
     except Exception as e:
-        print(f"💥 {description} failed with exception: {e}")
+        log(f"[ERROR]  {name}: {e}")
         return False
 
-def run_rss_feeder():
-    """Run RSS feeder daily data collection."""
-    return run_command(
+
+# ── Individual tasks ──────────────────────────────────────────
+
+def task_rss_feeder():
+    run_task(
+        "RSS Feeder — daily collect",
         "python main.py",
-        cwd=PROJECT_ROOT / "RSS_Feeder",
-        description="RSS Feeder daily collection"
+        PROJECT_ROOT / "RSS_Feeder",
     )
 
-def run_weekly_digest():
-    """Run weekly digest generation."""
-    return run_command(
+def task_weekly_digest():
+    run_task(
+        "Weekly Digest — top articles",
         "python weekly.py",
-        cwd=PROJECT_ROOT / "RSS_Feeder",
-        description="Weekly digest generation"
+        PROJECT_ROOT / "RSS_Feeder",
     )
 
-def run_serpi_feeder():
-    """Run Serpi feeder weekly Google Trends collection."""
-    return run_command(
+def task_serpi_feeder():
+    run_task(
+        "Serpi Feeder — Google Trends",
+        "python main.py --profile standard",
+        PROJECT_ROOT / "Serpi_feeder",
+        env_subfolder="Serpi_feeder",
+    )
+
+def task_tavily_feeder():
+    run_task(
+        "Tavily Feeder — competitor research",
         "python main.py",
-        cwd=PROJECT_ROOT / "Serpi_feeder",
-        description="Serpi Feeder weekly trends"
+        PROJECT_ROOT / "tavily_feeder",
+        env_subfolder="tavily_feeder",
     )
 
-def run_tavily_feeder():
-    """Run Tavily feeder weekly research collection."""
-    return run_command(
-        "python main.py",
-        cwd=PROJECT_ROOT / "tavily_feeder",
-        description="Tavily Feeder weekly research"
+def task_reddit_watcher():
+    run_task(
+        "Reddit Watcher — subreddit scraping",
+        "python main.py --sort top --time week",
+        PROJECT_ROOT / "reddit_watcher",
+        env_subfolder="reddit_watcher",
     )
 
-def run_reddit_watcher():
-    """Run Reddit watcher weekly scraping."""
-    return run_command(
-        "python main.py",
-        cwd=PROJECT_ROOT / "reddit_watcher",
-        description="Reddit Watcher weekly scraping"
-    )
-
-def run_vector_db_update():
-    """Run vector database weekly update."""
-    return run_command(
+def task_vector_db():
+    run_task(
+        "Vector DB — update index",
         "python make_vector_db.py",
-        cwd=PROJECT_ROOT / "vector_db",
-        description="Vector DB weekly update"
+        PROJECT_ROOT / "vector_db",
     )
 
-def run_all_tasks_once():
-    """Run all tasks once for testing."""
-    print(f"\n🚀 Running all tasks once at {datetime.now()}")
 
-    tasks = [
-        ("RSS Feeder", run_rss_feeder),
-        ("Weekly Digest", run_weekly_digest),
-        ("Serpi Feeder", run_serpi_feeder),
-        ("Tavily Feeder", run_tavily_feeder),
-        ("Reddit Watcher", run_reddit_watcher),
-        ("Vector DB Update", run_vector_db_update),
+# ── Pre-flight check ──────────────────────────────────────────
+
+def preflight_check():
+    log("Pre-flight check...")
+    checks = [
+        ("Serpi_feeder",    "SERPAPI_KEY"),
+        ("tavily_feeder",   "TAVILY_API_KEY"),
+        ("reddit_watcher",  "REDDIT_CLIENT_ID"),
+        ("reddit_watcher",  "REDDIT_CLIENT_SECRET"),
     ]
+    all_ok = True
+    for subfolder, var in checks:
+        env_path = PROJECT_ROOT / subfolder / ".env"
+        found = False
+        if env_path.exists():
+            with open(env_path, encoding="utf-8") as f:
+                for line in f:
+                    if line.strip().startswith(var + "="):
+                        val = line.split("=", 1)[1].strip().strip('"').strip("'")
+                        if val:
+                            found = True
+                            break
+        status = "OK" if found else "MISSING"
+        if not found:
+            all_ok = False
+        log(f"   [{status}] {subfolder}/.env -> {var}")
 
-    results = {}
-    for name, task_func in tasks:
-        print(f"\n{'='*50}")
-        success = task_func()
-        results[name] = success
+    if all_ok:
+        log("All credentials found.")
+    else:
+        log("WARNING: Some credentials missing — those tasks will fail.")
+    return all_ok
 
-    print(f"\n{'='*50}")
-    print("📊 Task Results Summary:")
-    for name, success in results.items():
-        status = "✅" if success else "❌"
-        print(f"   {status} {name}")
 
-    successful = sum(results.values())
-    total = len(results)
-    print(f"\n🎯 {successful}/{total} tasks completed successfully")
+# ── Schedule setup ────────────────────────────────────────────
 
-    return successful == total
+def setup_schedules():
+    schedule.every().day.at("20:00").do(task_rss_feeder)
+    schedule.every().monday.at("20:05").do(task_weekly_digest)
+    schedule.every().monday.at("20:15").do(task_serpi_feeder)
+    schedule.every().monday.at("20:25").do(task_tavily_feeder)
+    schedule.every().monday.at("20:35").do(task_reddit_watcher)
+    schedule.every().monday.at("20:50").do(task_vector_db)
+
+    log("Schedules set:")
+    log("   Daily   20:00  RSS Feeder")
+    log("   Monday  20:05  Weekly Digest")
+    log("   Monday  20:15  Serpi Feeder")
+    log("   Monday  20:25  Tavily Feeder")
+    log("   Monday  20:35  Reddit Watcher")
+    log("   Monday  20:50  Vector DB Update")
+
+
+# ── CLI modes ─────────────────────────────────────────────────
+
+def show_status():
+    setup_schedules()
+    print(f"\n{'='*55}")
+    print(" Next scheduled runs:")
+    print(f"{'='*55}")
+    for job in schedule.jobs:
+        next_run = job.next_run.strftime("%Y-%m-%d %H:%M") if job.next_run else "?"
+        print(f"  {next_run}  ->  {job.job_func.__name__}")
+    print(f"{'='*55}\n")
+
+
+def run_all_once():
+    log("Running all tasks once (test mode)")
+    log("=" * 55)
+    tasks = [
+        task_rss_feeder,
+        task_weekly_digest,
+        task_serpi_feeder,
+        task_tavily_feeder,
+        task_reddit_watcher,
+        task_vector_db,
+    ]
+    for fn in tasks:
+        log(f"\n{'─'*40}")
+        fn()
+    log(f"\n{'='*55}")
+    log(f"Test run complete — {len(tasks)} tasks executed")
+
 
 def main():
     parser = argparse.ArgumentParser(description="Marketing Agents Scheduler")
-    parser.add_argument(
-        "--run-once",
-        action="store_true",
-        help="Run all tasks once and exit (for testing)"
-    )
-    parser.add_argument(
-        "--schedule",
-        action="store_true",
-        help="Run the scheduler with predefined schedules"
-    )
-
+    parser.add_argument("--run-once", action="store_true", help="Run all tasks once and exit")
+    parser.add_argument("--status",   action="store_true", help="Show next run times and exit")
     args = parser.parse_args()
 
     if args.run_once:
-        success = run_all_tasks_once()
-        sys.exit(0 if success else 1)
+        preflight_check()
+        run_all_once()
+        return
 
-    if args.schedule:
-        try:
-            import schedule
-        except ImportError:
-            print("❌ schedule library not found. Install with: pip install schedule")
-            sys.exit(1)
+    if args.status:
+        show_status()
+        return
 
-        print("📅 Setting up automated schedules...")
+    # Normal mode
+    log("=" * 55)
+    log("Marketing Agents Scheduler — starting")
+    log("=" * 55)
+    log(f"Project root : {PROJECT_ROOT}")
+    log(f"Log file     : {LOG_FILE}")
+    log(f"Start time   : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
-        # Daily tasks
-        schedule.every().day.at("06:00").do(run_rss_feeder)
+    preflight_check()
+    setup_schedules()
+    log("Scheduler running. Press Ctrl+C to stop.\n")
 
-        # Weekly tasks (Sunday at 7 AM)
-        schedule.every().sunday.at("07:00").do(run_weekly_digest)
-        schedule.every().sunday.at("08:00").do(run_serpi_feeder)
-        schedule.every().sunday.at("09:00").do(run_tavily_feeder)
-        schedule.every().sunday.at("10:00").do(run_reddit_watcher)
-        schedule.every().sunday.at("11:00").do(run_vector_db_update)
+    try:
+        while True:
+            schedule.run_pending()
+            time.sleep(30)
+    except KeyboardInterrupt:
+        log("Scheduler stopped by user.")
+        sys.exit(0)
 
-        print("✅ Schedules configured:")
-        print("   📆 Daily 6:00 AM: RSS Feeder")
-        print("   📅 Sunday 7:00 AM: Weekly Digest")
-        print("   📅 Sunday 8:00 AM: Serpi Feeder")
-        print("   📅 Sunday 9:00 AM: Tavily Feeder")
-        print("   📅 Sunday 10:00 AM: Reddit Watcher")
-        print("   📅 Sunday 11:00 AM: Vector DB Update")
-        print("\n🔄 Scheduler running... (Ctrl+C to stop)")
-
-        try:
-            while True:
-                schedule.run_pending()
-                time.sleep(60)  # Check every minute
-        except KeyboardInterrupt:
-            print("\n🛑 Scheduler stopped by user")
-            sys.exit(0)
-
-    else:
-        print("Usage:")
-        print("  python scheduler.py --run-once    # Test all tasks")
-        print("  python scheduler.py --schedule    # Run automated scheduler")
-        sys.exit(1)
 
 if __name__ == "__main__":
     main()

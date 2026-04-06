@@ -1,0 +1,233 @@
+[2026-04-06 17:09:27] 
+[1m🚀 Running all tasks once (test mode)[0m
+[2026-04-06 17:09:27] =======================================================
+[2026-04-06 17:09:27] 
+────────────────────────────────────────
+[2026-04-06 17:09:27] ▶  START  RSS Feeder — daily collect
+[2026-04-06 17:09:28] [91m❌ FAIL   RSS Feeder — daily collect (exit 1, 0s)[0m
+[2026-04-06 17:09:28]    [91m    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[2026-04-06 17:09:28]    [91m  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode[0m
+[2026-04-06 17:09:28]    [91m    return codecs.charmap_encode(input,self.errors,encoding_table)[0][0m
+[2026-04-06 17:09:28]    [91m           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[2026-04-06 17:09:28]    [91mUnicodeEncodeError: 'charmap' codec can't encode character '\U0001f504' in position 2: character maps to <undefined>[0m
+[2026-04-06 17:09:28] 
+────────────────────────────────────────
+[2026-04-06 17:09:28] ▶  START  Weekly Digest — top articles
+[2026-04-06 17:09:28] [91m❌ FAIL   Weekly Digest — top articles (exit 1, 0s)[0m
+[2026-04-06 17:09:28]    [91m    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[2026-04-06 17:09:28]    [91m  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode[0m
+[2026-04-06 17:09:28]    [91m    return codecs.charmap_encode(input,self.errors,encoding_table)[0][0m
+[2026-04-06 17:09:28]    [91m           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[2026-04-06 17:09:28]    [91mUnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4f0' in position 2: character maps to <undefined>[0m
+[2026-04-06 17:09:28] 
+────────────────────────────────────────
+[2026-04-06 17:09:28] ▶  START  Serpi Feeder — Google Trends
+[2026-04-06 17:09:29] [91m❌ FAIL   Serpi Feeder — Google Trends (exit 1, 0s)[0m
+[2026-04-06 17:09:29]    [91m    )[0m
+[2026-04-06 17:09:29]    [91m    ^[0m
+[2026-04-06 17:09:29]    [91m  File "C:\Users\acer\PycharmProjects\Marketing_agents\Serpi_feeder\scripts\runner.py", line 47, in run[0m
+[2026-04-06 17:09:29]    [91m    raise ValueError("SERPAPI_KEY not set in .env file")[0m
+[2026-04-06 17:09:29]    [91mValueError: SERPAPI_KEY not set in .env file[0m
+[2026-04-06 17:09:29] 
+────────────────────────────────────────
+[2026-04-06 17:09:29] ▶  START  Tavily Feeder — competitor research
+[2026-04-06 17:09:30] [91m❌ FAIL   Tavily Feeder — competitor research (exit 1, 1s)[0m
+[2026-04-06 17:09:30]    [91m    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[2026-04-06 17:09:30]    [91m  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode[0m
+[2026-04-06 17:09:30]    [91m    return codecs.charmap_encode(input,self.errors,encoding_table)[0][0m
+[2026-04-06 17:09:30]    [91m           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[2026-04-06 17:09:30]    [91mUnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>[0m
+[2026-04-06 17:09:30] 
+────────────────────────────────────────
+[2026-04-06 17:09:30] ▶  START  Reddit Watcher — subreddit scraping
+[2026-04-06 17:09:31] [91m❌ FAIL   Reddit Watcher — subreddit scraping (exit 1, 0s)[0m
+[2026-04-06 17:09:31]    [91m    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[2026-04-06 17:09:31]    [91m  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode[0m
+[2026-04-06 17:09:31]    [91m    return codecs.charmap_encode(input,self.errors,encoding_table)[0][0m
+[2026-04-06 17:09:31]    [91m           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[2026-04-06 17:09:31]    [91mUnicodeEncodeError: 'charmap' codec can't encode character '\U0001f534' in position 2: character maps to <undefined>[0m
+[2026-04-06 17:09:31] 
+────────────────────────────────────────
+[2026-04-06 17:09:31] ▶  START  Vector DB — update index
+[2026-04-06 17:09:31] [91m❌ FAIL   Vector DB — update index (exit 1, 0s)[0m
+[2026-04-06 17:09:31]    [91m    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[2026-04-06 17:09:31]    [91m  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode[0m
+[2026-04-06 17:09:31]    [91m    return codecs.charmap_encode(input,self.errors,encoding_table)[0][0m
+[2026-04-06 17:09:31]    [91m           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[2026-04-06 17:09:31]    [91mUnicodeEncodeError: 'charmap' codec can't encode character '\U0001f527' in position 2: character maps to <undefined>[0m
+[2026-04-06 17:09:31] 
+=======================================================
+[2026-04-06 17:09:31] [1m📊 Run complete — 6 tasks executed[0m
+[2026-04-06 17:11:31] 
+Running all tasks once (test mode)
+[2026-04-06 17:11:31] =======================================================
+[2026-04-06 17:11:31] 
+────────────────────────────────────────
+[2026-04-06 17:11:31] [START] RSS Feeder — daily collect
+[2026-04-06 17:11:32] [FAILED] RSS Feeder — daily collect (exit 1, 0s)
+[2026-04-06 17:11:32] [ERROR] RSS Feeder — daily collect: 'NoneType' object has no attribute 'strip'
+[2026-04-06 17:11:32] 
+────────────────────────────────────────
+[2026-04-06 17:11:32] [START] Weekly Digest — top articles
+[2026-04-06 17:11:32] [FAILED] Weekly Digest — top articles (exit 1, 0s)
+[2026-04-06 17:11:32]        ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:11:32]      File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+[2026-04-06 17:11:32]        return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[2026-04-06 17:11:32]               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:11:32]    UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4f0' in position 2: character maps to <undefined>
+[2026-04-06 17:11:32] 
+────────────────────────────────────────
+[2026-04-06 17:11:32] [START] Serpi Feeder — Google Trends
+[2026-04-06 17:11:33] [FAILED] Serpi Feeder — Google Trends (exit 1, 1s)
+[2026-04-06 17:11:33]        )
+[2026-04-06 17:11:33]        ^
+[2026-04-06 17:11:33]      File "C:\Users\acer\PycharmProjects\Marketing_agents\Serpi_feeder\scripts\runner.py", line 47, in run
+[2026-04-06 17:11:33]        raise ValueError("SERPAPI_KEY not set in .env file")
+[2026-04-06 17:11:33]    ValueError: SERPAPI_KEY not set in .env file
+[2026-04-06 17:11:33] 
+────────────────────────────────────────
+[2026-04-06 17:11:33] [START] Tavily Feeder — competitor research
+[2026-04-06 17:11:34] [FAILED] Tavily Feeder — competitor research (exit 1, 1s)
+[2026-04-06 17:11:34] [ERROR] Tavily Feeder — competitor research: 'NoneType' object has no attribute 'strip'
+[2026-04-06 17:11:34] 
+────────────────────────────────────────
+[2026-04-06 17:11:34] [START] Reddit Watcher — subreddit scraping
+[2026-04-06 17:11:35] [FAILED] Reddit Watcher — subreddit scraping (exit 1, 0s)
+[2026-04-06 17:11:35] [ERROR] Reddit Watcher — subreddit scraping: 'NoneType' object has no attribute 'strip'
+[2026-04-06 17:11:35] 
+────────────────────────────────────────
+[2026-04-06 17:11:35] [START] Vector DB — update index
+[2026-04-06 17:11:35] [FAILED] Vector DB — update index (exit 1, 0s)
+[2026-04-06 17:11:35]        ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:11:35]      File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+[2026-04-06 17:11:35]        return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[2026-04-06 17:11:35]               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:11:35]    UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f527' in position 2: character maps to <undefined>
+[2026-04-06 17:11:35] 
+=======================================================
+[2026-04-06 17:11:35] Run complete — 6 tasks executed
+[2026-04-06 17:13:37] 
+Running all tasks once (test mode)
+[2026-04-06 17:13:37] =======================================================
+[2026-04-06 17:13:37] 
+────────────────────────────────────────
+[2026-04-06 17:13:37] [START] RSS Feeder — daily collect
+[2026-04-06 17:13:38] [FAILED] RSS Feeder — daily collect (exit 1, 0s)
+[2026-04-06 17:13:38]        ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:13:38]      File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+[2026-04-06 17:13:38]        return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[2026-04-06 17:13:38]               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:13:38]    UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f504' in position 2: character maps to <undefined>
+[2026-04-06 17:13:38] 
+────────────────────────────────────────
+[2026-04-06 17:13:38] [START] Weekly Digest — top articles
+[2026-04-06 17:13:38] [FAILED] Weekly Digest — top articles (exit 1, 0s)
+[2026-04-06 17:13:38]        ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:13:38]      File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+[2026-04-06 17:13:38]        return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[2026-04-06 17:13:38]               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:13:38]    UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4f0' in position 2: character maps to <undefined>
+[2026-04-06 17:13:38] 
+────────────────────────────────────────
+[2026-04-06 17:13:38] [START] Serpi Feeder — Google Trends
+[2026-04-06 17:13:39] [FAILED] Serpi Feeder — Google Trends (exit 1, 0s)
+[2026-04-06 17:13:39]        )
+[2026-04-06 17:13:39]        ^
+[2026-04-06 17:13:39]      File "C:\Users\acer\PycharmProjects\Marketing_agents\Serpi_feeder\scripts\runner.py", line 47, in run
+[2026-04-06 17:13:39]        raise ValueError("SERPAPI_KEY not set in .env file")
+[2026-04-06 17:13:39]    ValueError: SERPAPI_KEY not set in .env file
+[2026-04-06 17:13:39] 
+────────────────────────────────────────
+[2026-04-06 17:13:39] [START] Tavily Feeder — competitor research
+[2026-04-06 17:13:40] [FAILED] Tavily Feeder — competitor research (exit 1, 1s)
+[2026-04-06 17:13:40]        ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:13:40]      File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+[2026-04-06 17:13:40]        return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[2026-04-06 17:13:40]               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:13:40]    UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+[2026-04-06 17:13:40] 
+────────────────────────────────────────
+[2026-04-06 17:13:40] [START] Reddit Watcher — subreddit scraping
+[2026-04-06 17:13:41] [FAILED] Reddit Watcher — subreddit scraping (exit 1, 0s)
+[2026-04-06 17:13:41]        ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:13:41]      File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+[2026-04-06 17:13:41]        return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[2026-04-06 17:13:41]               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:13:41]    UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f534' in position 2: character maps to <undefined>
+[2026-04-06 17:13:41] 
+────────────────────────────────────────
+[2026-04-06 17:13:41] [START] Vector DB — update index
+[2026-04-06 17:13:41] [FAILED] Vector DB — update index (exit 1, 0s)
+[2026-04-06 17:13:41]        ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:13:41]      File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+[2026-04-06 17:13:41]        return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+[2026-04-06 17:13:41]               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-04-06 17:13:41]    UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f527' in position 2: character maps to <undefined>
+[2026-04-06 17:13:41] 
+=======================================================
+[2026-04-06 17:13:41] Run complete — 6 tasks executed
+[2026-04-06 17:31:18] Pre-flight check...
+[2026-04-06 17:31:18]    [MISSING] Serpi_feeder/.env -> SERPAPI_KEY
+[2026-04-06 17:31:18]    [MISSING] tavily_feeder/.env -> TAVILY_API_KEY
+[2026-04-06 17:31:18]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_ID
+[2026-04-06 17:31:18]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_SECRET
+[2026-04-06 17:31:18] WARNING: Some credentials missing — those tasks will fail.
+[2026-04-06 17:31:18] Running all tasks once (test mode)
+[2026-04-06 17:31:18] =======================================================
+[2026-04-06 17:31:18] 
+────────────────────────────────────────
+[2026-04-06 17:31:18] [START] RSS Feeder — daily collect
+[2026-04-06 17:31:24] [OK]     RSS Feeder — daily collect (6s)
+[2026-04-06 17:31:24]          [3/4] Removing duplicates...
+[2026-04-06 17:31:24]          Deduplicated: 43 → 43 unique articles
+[2026-04-06 17:31:24]          [4/4] Storing to database...
+[2026-04-06 17:31:24]          Saved 15 new articles, skipped 28 duplicates
+[2026-04-06 17:31:24]          ✅ Done. 43 new articles stored.
+[2026-04-06 17:31:24] 
+────────────────────────────────────────
+[2026-04-06 17:31:24] [START] Weekly Digest — top articles
+[2026-04-06 17:31:24] [OK]     Weekly Digest — top articles (0s)
+[2026-04-06 17:31:24]               https://www.cnx-software.com/2026/04/04/velxio-open-source-self-hosted-arduino-raspberry-pi-and-esp32-simulator/
+[2026-04-06 17:31:24]            4. [3 pts] DIY ESP32-S3 Internet radio features Winamp-styled user interface
+[2026-04-06 17:31:24]               https://www.cnx-software.com/2026/03/30/diy-esp32-s3-internet-radio-features-winamp-styled-user-interface/
+[2026-04-06 17:31:24]            5. [3 pts] M5Stack Stamp-P4 – A tiny ESP32-P4 USB-C board with optional Wi-Fi 6 and Bluetoo
+[2026-04-06 17:31:24]               https://www.cnx-software.com/2026/03/29/m5stack-stamp-p4-a-tiny-esp32-p4-usb-c-board-with-optional-wi-fi-6-and-bluetooth-5-4/
+[2026-04-06 17:31:24] 
+────────────────────────────────────────
+[2026-04-06 17:31:24] [START] Serpi Feeder — Google Trends
+[2026-04-06 17:31:25] [FAIL]   Serpi Feeder — Google Trends (exit 1, 0s)
+[2026-04-06 17:31:25]              )
+[2026-04-06 17:31:25]              ^
+[2026-04-06 17:31:25]            File "C:\Users\acer\PycharmProjects\Marketing_agents\Serpi_feeder\scripts\runner.py", line 47, in run
+[2026-04-06 17:31:25]              raise ValueError("SERPAPI_KEY not set in .env file")
+[2026-04-06 17:31:25]          ValueError: SERPAPI_KEY not set in .env file
+[2026-04-06 17:31:25] 
+────────────────────────────────────────
+[2026-04-06 17:31:25] [START] Tavily Feeder — competitor research
+[2026-04-06 17:31:26] [FAIL]   Tavily Feeder — competitor research (exit 1, 1s)
+[2026-04-06 17:31:26]            File "C:\Users\acer\PycharmProjects\Marketing_agents\tavily_feeder\scripts\tavily_client.py", line 20, in search
+[2026-04-06 17:31:26]              client = get_client()
+[2026-04-06 17:31:26]            File "C:\Users\acer\PycharmProjects\Marketing_agents\tavily_feeder\scripts\tavily_client.py", line 14, in get_client
+[2026-04-06 17:31:26]              raise ValueError("TAVILY_API_KEY not set in .env file")
+[2026-04-06 17:31:26]          ValueError: TAVILY_API_KEY not set in .env file
+[2026-04-06 17:31:26] 
+────────────────────────────────────────
+[2026-04-06 17:31:26] [START] Reddit Watcher — subreddit scraping
+[2026-04-06 17:33:18] [OK]     Reddit Watcher — subreddit scraping (112s)
+[2026-04-06 17:33:18]            1. [1080 pts] r/raspberry_pi — FlightTrackr alerts me whenever a plane flies overhead, and tells me i
+[2026-04-06 17:33:18]            2. [998 pts] r/raspberry_pi — I built a Pi Zero 2 W into a walnut and brass thermal printer - 16 pri
+[2026-04-06 17:33:18]            3. [931 pts] r/homeassistant — New to HomeAssistant, building dashboards with Claude
+[2026-04-06 17:33:18]            4. [790 pts] r/esp32 — f32 - one of the smallest ESP32 dev boards
+[2026-04-06 17:33:18]            5. [771 pts] r/homeassistant — Finally live!
+[2026-04-06 17:33:18] 
+────────────────────────────────────────
+[2026-04-06 17:33:18] [START] Vector DB — update index
+[2026-04-06 17:34:41] [OK]     Vector DB — update index (82s)
+[2026-04-06 17:34:41]             Sources    : 3
+[2026-04-06 17:34:41]             Indexed sources:
+[2026-04-06 17:34:41]               • radxa_rock5a_product_brief.pdf — 20 chunks (2026-04-06)
+[2026-04-06 17:34:41]               • radxa_rock5c_product_brief.pdf — 20 chunks (2026-04-06)
+[2026-04-06 17:34:41]               • radxa_rock_pi_s_product_brief_Revision_1.2.pdf — 13 chunks (2026-04-06)
+[2026-04-06 17:34:41] 
+=======================================================
+[2026-04-06 17:34:41] Test run complete — 6 tasks executed
