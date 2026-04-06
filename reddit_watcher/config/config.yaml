@@ -1,0 +1,13 @@
+reddit:
+  subreddits:
+    - OrangePI
+    - raspberry_pi
+    - SBCs
+
+  fetch:
+    type: hot        # hot | top | new
+    limit: 50        # number of posts per subreddit
+    time_filter: week   # only used for "top"
+
+output:
+  file: output/reddit_trends.xlsx
