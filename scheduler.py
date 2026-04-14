@@ -1,14 +1,18 @@
 """
 scheduler.py — Marketing Agents Automated Scheduler
-Runs daily between 8PM-9PM window. Week starts Monday.
+Runs daily between 8PM-9PM. Week starts Monday.
 
-Fixes:
-  - Windows cp1252 emoji crash → forces UTF-8 encoding on all subprocesses
-  - .env files in subfolders → loaded explicitly before each task
+Schedule:
+  Daily   20:00  RSS Feeder
+  Monday  20:05  Weekly Digest
+  Monday  20:15  Serpi Feeder
+  Monday  20:25  Tavily Feeder
+  Monday  20:35  Reddit Watcher
+  Monday  20:50  Vector DB Update
 
 Usage:
-  python scheduler.py             # start the scheduler (runs forever)
-  python scheduler.py --run-once  # run everything once right now (for testing)
+  python scheduler.py             # start scheduler (runs forever)
+  python scheduler.py --run-once  # run everything once now (testing)
   python scheduler.py --status    # show next scheduled run times
 """
 
@@ -26,43 +30,44 @@ import schedule
 PROJECT_ROOT = Path(__file__).parent
 LOG_FILE     = PROJECT_ROOT / "scheduler_log.txt"
 
+# ── Detect venv Python ────────────────────────────────────────
+# Always use the venv Python, whether running from terminal or Task Scheduler
+VENV_PYTHON  = PROJECT_ROOT / ".venv" / "Scripts" / "python.exe"
+PYTHON_EXE   = str(VENV_PYTHON) if VENV_PYTHON.exists() else sys.executable
+
 
 # ── Logging ───────────────────────────────────────────────────
 
 def log(msg: str):
     ts   = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     line = f"[{ts}] {msg}"
-    # stdout: replace unencodable chars so the terminal never crashes
-    print(line.encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8", errors="replace"))
+    safe = line.encode(sys.stdout.encoding or "utf-8", errors="replace").decode(
+           sys.stdout.encoding or "utf-8", errors="replace")
+    print(safe)
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(line + "\n")
 
 
-# ── Env loader ────────────────────────────────────────────────
-
-def load_env_for(subfolder: str):
-    """Load the .env file from a subfolder into the current process."""
-    env_path = PROJECT_ROOT / subfolder / ".env"
-    if env_path.exists():
-        load_dotenv(env_path, override=True)
-
-
 # ── Task runner ───────────────────────────────────────────────
 
-def run_task(name: str, command: str, cwd: Path, env_subfolder: str = None) -> bool:
+def run_task(name: str, script: str, cwd: Path, env_subfolder: str = None) -> bool:
+    """
+    Run a Python script using the venv Python.
+    Loads the component's .env into the subprocess environment.
+    Forces UTF-8 to avoid Windows cp1252 emoji crashes.
+    """
     log(f"[START] {name}")
     start = datetime.now()
 
-    # Build environment: inherit current env + force UTF-8
+    # Build environment
     env = os.environ.copy()
     env["PYTHONIOENCODING"] = "utf-8"
     env["PYTHONUTF8"]       = "1"
 
-    # Load the component's .env into the subprocess environment
+    # Inject the component's .env variables directly into subprocess env
     if env_subfolder:
         env_path = PROJECT_ROOT / env_subfolder / ".env"
         if env_path.exists():
-            # Parse the .env manually and inject into env dict
             with open(env_path, encoding="utf-8") as f:
                 for line in f:
                     line = line.strip()
@@ -72,6 +77,9 @@ def run_task(name: str, command: str, cwd: Path, env_subfolder: str = None) -> b
                         val = val.strip().strip('"').strip("'")
                         if key and val:
                             env[key] = val
+
+    # Always use venv Python — this is the critical fix
+    command = f'"{PYTHON_EXE}" {script}'
 
     try:
         result = subprocess.run(
@@ -88,23 +96,23 @@ def run_task(name: str, command: str, cwd: Path, env_subfolder: str = None) -> b
         elapsed = (datetime.now() - start).seconds
 
         if result.returncode == 0:
-            log(f"[OK]     {name} ({elapsed}s)")
+            log(f"[OK]   {name} ({elapsed}s)")
             lines = [l for l in result.stdout.strip().splitlines() if l.strip()]
             for line in lines[-5:]:
-                log(f"         {line}")
+                log(f"      {line}")
             return True
         else:
-            log(f"[FAIL]   {name} (exit {result.returncode}, {elapsed}s)")
+            log(f"[FAIL] {name} (exit {result.returncode}, {elapsed}s)")
             stderr_lines = (result.stderr or "").strip().splitlines()
             for line in stderr_lines[-5:]:
-                log(f"         {line}")
+                log(f"      {line}")
             return False
 
     except subprocess.TimeoutExpired:
         log(f"[TIMEOUT] {name} (over 1 hour)")
         return False
     except Exception as e:
-        log(f"[ERROR]  {name}: {e}")
+        log(f"[ERROR] {name}: {e}")
         return False
 
 
@@ -113,21 +121,21 @@ def run_task(name: str, command: str, cwd: Path, env_subfolder: str = None) -> b
 def task_rss_feeder():
     run_task(
         "RSS Feeder — daily collect",
-        "python main.py",
+        "main.py",
         PROJECT_ROOT / "RSS_Feeder",
     )
 
 def task_weekly_digest():
     run_task(
         "Weekly Digest — top articles",
-        "python weekly.py",
+        "weekly.py",
         PROJECT_ROOT / "RSS_Feeder",
     )
 
 def task_serpi_feeder():
     run_task(
         "Serpi Feeder — Google Trends",
-        "python main.py --profile standard",
+        "main.py --profile standard",
         PROJECT_ROOT / "Serpi_feeder",
         env_subfolder="Serpi_feeder",
     )
@@ -135,7 +143,7 @@ def task_serpi_feeder():
 def task_tavily_feeder():
     run_task(
         "Tavily Feeder — competitor research",
-        "python main.py",
+        "main.py",
         PROJECT_ROOT / "tavily_feeder",
         env_subfolder="tavily_feeder",
     )
@@ -143,7 +151,7 @@ def task_tavily_feeder():
 def task_reddit_watcher():
     run_task(
         "Reddit Watcher — subreddit scraping",
-        "python main.py --sort top --time week",
+        "main.py --sort top --time week",
         PROJECT_ROOT / "reddit_watcher",
         env_subfolder="reddit_watcher",
     )
@@ -151,7 +159,7 @@ def task_reddit_watcher():
 def task_vector_db():
     run_task(
         "Vector DB — update index",
-        "python make_vector_db.py",
+        "make_vector_db.py",
         PROJECT_ROOT / "vector_db",
     )
 
@@ -160,11 +168,18 @@ def task_vector_db():
 
 def preflight_check():
     log("Pre-flight check...")
+    log(f"   Python : {PYTHON_EXE}")
+
+    if not VENV_PYTHON.exists():
+        log(f"   [WARN] Venv not found at {VENV_PYTHON} — using system Python")
+    else:
+        log(f"   [OK]   Venv Python found")
+
     checks = [
-        ("Serpi_feeder",    "SERPAPI_KEY"),
-        ("tavily_feeder",   "TAVILY_API_KEY"),
-        ("reddit_watcher",  "REDDIT_CLIENT_ID"),
-        ("reddit_watcher",  "REDDIT_CLIENT_SECRET"),
+        ("Serpi_feeder",   "SERPAPI_KEY"),
+        ("tavily_feeder",  "TAVILY_API_KEY"),
+        ("reddit_watcher", "REDDIT_CLIENT_ID"),
+        ("reddit_watcher", "REDDIT_CLIENT_SECRET"),
     ]
     all_ok = True
     for subfolder, var in checks:
@@ -214,7 +229,8 @@ def setup_schedules():
 def show_status():
     setup_schedules()
     print(f"\n{'='*55}")
-    print(" Next scheduled runs:")
+    print(f"  Python : {PYTHON_EXE}")
+    print(f"  Next scheduled runs:")
     print(f"{'='*55}")
     for job in schedule.jobs:
         next_run = job.next_run.strftime("%Y-%m-%d %H:%M") if job.next_run else "?"
@@ -223,7 +239,8 @@ def show_status():
 
 
 def run_all_once():
-    log("Running all tasks once (test mode)")
+    log(f"Running all tasks once (test mode)")
+    log(f"Using Python: {PYTHON_EXE}")
     log("=" * 55)
     tasks = [
         task_rss_feeder,
@@ -260,6 +277,7 @@ def main():
     log("Marketing Agents Scheduler — starting")
     log("=" * 55)
     log(f"Project root : {PROJECT_ROOT}")
+    log(f"Python       : {PYTHON_EXE}")
     log(f"Log file     : {LOG_FILE}")
     log(f"Start time   : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 

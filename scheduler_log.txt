@@ -296,3 +296,289 @@ Running all tasks once (test mode)
 [2026-04-06 17:52:58] 
 =======================================================
 [2026-04-06 17:52:58] Test run complete — 6 tasks executed
+[2026-04-06 19:55:02] =======================================================
+[2026-04-06 19:55:02] Marketing Agents Scheduler — starting
+[2026-04-06 19:55:02] =======================================================
+[2026-04-06 19:55:02] Project root : C:\Users\acer\PycharmProjects\Marketing_agents
+[2026-04-06 19:55:02] Log file     : C:\Users\acer\PycharmProjects\Marketing_agents\scheduler_log.txt
+[2026-04-06 19:55:02] Start time   : 2026-04-06 19:55:02
+[2026-04-06 19:55:02] Pre-flight check...
+[2026-04-06 19:55:02]    [OK] Serpi_feeder/.env -> SERPAPI_KEY
+[2026-04-06 19:55:02]    [OK] tavily_feeder/.env -> TAVILY_API_KEY
+[2026-04-06 19:55:02]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_ID
+[2026-04-06 19:55:02]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_SECRET
+[2026-04-06 19:55:02] All credentials found.
+[2026-04-06 19:55:02] Schedules set:
+[2026-04-06 19:55:02]    Daily   20:00  RSS Feeder
+[2026-04-06 19:55:02]    Monday  20:05  Weekly Digest
+[2026-04-06 19:55:02]    Monday  20:15  Serpi Feeder
+[2026-04-06 19:55:02]    Monday  20:25  Tavily Feeder
+[2026-04-06 19:55:02]    Monday  20:35  Reddit Watcher
+[2026-04-06 19:55:02]    Monday  20:50  Vector DB Update
+[2026-04-06 19:55:02] Scheduler running. Press Ctrl+C to stop.
+
+[2026-04-06 20:00:02] [START] RSS Feeder — daily collect
+[2026-04-06 20:00:02] [FAIL]   RSS Feeder — daily collect (exit 1, 0s)
+[2026-04-06 20:00:02]            File "C:\Users\acer\PycharmProjects\Marketing_agents\RSS_Feeder\main.py", line 7, in <module>
+[2026-04-06 20:00:02]              from scripts.fetch_rss import fetch_all
+[2026-04-06 20:00:02]            File "C:\Users\acer\PycharmProjects\Marketing_agents\RSS_Feeder\scripts\fetch_rss.py", line 1, in <module>
+[2026-04-06 20:00:02]              import feedparser
+[2026-04-06 20:00:02]          ModuleNotFoundError: No module named 'feedparser'
+[2026-04-06 20:05:02] [START] Weekly Digest — top articles
+[2026-04-06 20:05:03] [OK]     Weekly Digest — top articles (0s)
+[2026-04-06 20:05:03]               https://www.cnx-software.com/2026/04/04/velxio-open-source-self-hosted-arduino-raspberry-pi-and-esp32-simulator/
+[2026-04-06 20:05:03]            4. [3 pts] DIY ESP32-S3 Internet radio features Winamp-styled user interface
+[2026-04-06 20:05:03]               https://www.cnx-software.com/2026/03/30/diy-esp32-s3-internet-radio-features-winamp-styled-user-interface/
+[2026-04-06 20:05:03]            5. [3 pts] M5Stack Stamp-P4 – A tiny ESP32-P4 USB-C board with optional Wi-Fi 6 and Bluetoo
+[2026-04-06 20:05:03]               https://www.cnx-software.com/2026/03/29/m5stack-stamp-p4-a-tiny-esp32-p4-usb-c-board-with-optional-wi-fi-6-and-bluetooth-5-4/
+[2026-04-06 20:15:03] [START] Serpi Feeder — Google Trends
+[2026-04-06 20:15:06] [OK]     Serpi Feeder — Google Trends (3s)
+[2026-04-06 20:15:06]           📊 Credit Status — April 2026
+[2026-04-06 20:15:06]          ==================================================
+[2026-04-06 20:15:06]            [░░░░░░░░░░░░░░░░░░░░] 2.4%
+[2026-04-06 20:15:06]            Used: 6 / 250  |  Remaining: 244
+[2026-04-06 20:15:06]          ==================================================
+[2026-04-06 20:25:06] [START] Tavily Feeder — competitor research
+[2026-04-06 20:25:06] [FAIL]   Tavily Feeder — competitor research (exit 1, 0s)
+[2026-04-06 20:25:06]            File "C:\Users\acer\PycharmProjects\Marketing_agents\tavily_feeder\scripts\runner.py", line 10, in <module>
+[2026-04-06 20:25:06]              from scripts import tavily_client as tc
+[2026-04-06 20:25:06]            File "C:\Users\acer\PycharmProjects\Marketing_agents\tavily_feeder\scripts\tavily_client.py", line 2, in <module>
+[2026-04-06 20:25:06]              from tavily import TavilyClient
+[2026-04-06 20:25:06]          ModuleNotFoundError: No module named 'tavily'
+[2026-04-06 20:35:06] [START] Reddit Watcher — subreddit scraping
+[2026-04-06 20:35:07] [FAIL]   Reddit Watcher — subreddit scraping (exit 1, 0s)
+[2026-04-06 20:35:07]            File "C:\Users\acer\PycharmProjects\Marketing_agents\reddit_watcher\scripts\fetch_reddit.py", line 128, in fetch_all
+[2026-04-06 20:35:07]              reddit = get_reddit_client()
+[2026-04-06 20:35:07]            File "C:\Users\acer\PycharmProjects\Marketing_agents\reddit_watcher\scripts\fetch_reddit.py", line 14, in get_reddit_client
+[2026-04-06 20:35:07]              import praw
+[2026-04-06 20:35:07]          ModuleNotFoundError: No module named 'praw'
+[2026-04-06 20:50:07] [START] Vector DB — update index
+[2026-04-06 20:50:17] [FAIL]   Vector DB — update index (exit 1, 9s)
+[2026-04-07 19:28:48] Schedules set:
+[2026-04-07 19:28:48]    Daily   20:00  RSS Feeder
+[2026-04-07 19:28:48]    Monday  20:05  Weekly Digest
+[2026-04-07 19:28:48]    Monday  20:15  Serpi Feeder
+[2026-04-07 19:28:48]    Monday  20:25  Tavily Feeder
+[2026-04-07 19:28:48]    Monday  20:35  Reddit Watcher
+[2026-04-07 19:28:48]    Monday  20:50  Vector DB Update
+[2026-04-07 19:32:55] Schedules set:
+[2026-04-07 19:32:55]    Daily   20:00  RSS Feeder
+[2026-04-07 19:32:55]    Monday  20:05  Weekly Digest
+[2026-04-07 19:32:55]    Monday  20:15  Serpi Feeder
+[2026-04-07 19:32:55]    Monday  20:25  Tavily Feeder
+[2026-04-07 19:32:55]    Monday  20:35  Reddit Watcher
+[2026-04-07 19:32:55]    Monday  20:50  Vector DB Update
+[2026-04-07 19:55:02] =======================================================
+[2026-04-07 19:55:02] Marketing Agents Scheduler — starting
+[2026-04-07 19:55:02] =======================================================
+[2026-04-07 19:55:02] Project root : C:\Users\acer\PycharmProjects\Marketing_agents
+[2026-04-07 19:55:02] Python       : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-07 19:55:02] Log file     : C:\Users\acer\PycharmProjects\Marketing_agents\scheduler_log.txt
+[2026-04-07 19:55:02] Start time   : 2026-04-07 19:55:02
+[2026-04-07 19:55:02] Pre-flight check...
+[2026-04-07 19:55:02]    Python : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-07 19:55:02]    [OK]   Venv Python found
+[2026-04-07 19:55:02]    [OK] Serpi_feeder/.env -> SERPAPI_KEY
+[2026-04-07 19:55:02]    [OK] tavily_feeder/.env -> TAVILY_API_KEY
+[2026-04-07 19:55:02]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_ID
+[2026-04-07 19:55:02]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_SECRET
+[2026-04-07 19:55:02] All credentials found.
+[2026-04-07 19:55:02] Schedules set:
+[2026-04-07 19:55:02]    Daily   20:00  RSS Feeder
+[2026-04-07 19:55:02]    Monday  20:05  Weekly Digest
+[2026-04-07 19:55:02]    Monday  20:15  Serpi Feeder
+[2026-04-07 19:55:02]    Monday  20:25  Tavily Feeder
+[2026-04-07 19:55:02]    Monday  20:35  Reddit Watcher
+[2026-04-07 19:55:02]    Monday  20:50  Vector DB Update
+[2026-04-07 19:55:02] Scheduler running. Press Ctrl+C to stop.
+
+[2026-04-07 20:00:02] [START] RSS Feeder — daily collect
+[2026-04-07 20:00:11] [OK]   RSS Feeder — daily collect (8s)
+[2026-04-07 20:00:11]       [3/4] Removing duplicates...
+[2026-04-07 20:00:11]       Deduplicated: 44 → 44 unique articles
+[2026-04-07 20:00:11]       [4/4] Storing to database...
+[2026-04-07 20:00:11]       Saved 6 new articles, skipped 38 duplicates
+[2026-04-07 20:00:11]       ✅ Done. 44 new articles stored.
+[2026-04-09 19:55:04] =======================================================
+[2026-04-09 19:55:04] Marketing Agents Scheduler — starting
+[2026-04-09 19:55:04] =======================================================
+[2026-04-09 19:55:04] Project root : C:\Users\acer\PycharmProjects\Marketing_agents
+[2026-04-09 19:55:04] Python       : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-09 19:55:04] Log file     : C:\Users\acer\PycharmProjects\Marketing_agents\scheduler_log.txt
+[2026-04-09 19:55:04] Start time   : 2026-04-09 19:55:04
+[2026-04-09 19:55:04] Pre-flight check...
+[2026-04-09 19:55:04]    Python : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-09 19:55:04]    [OK]   Venv Python found
+[2026-04-09 19:55:04]    [OK] Serpi_feeder/.env -> SERPAPI_KEY
+[2026-04-09 19:55:04]    [OK] tavily_feeder/.env -> TAVILY_API_KEY
+[2026-04-09 19:55:04]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_ID
+[2026-04-09 19:55:04]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_SECRET
+[2026-04-09 19:55:04] All credentials found.
+[2026-04-09 19:55:04] Schedules set:
+[2026-04-09 19:55:04]    Daily   20:00  RSS Feeder
+[2026-04-09 19:55:04]    Monday  20:05  Weekly Digest
+[2026-04-09 19:55:04]    Monday  20:15  Serpi Feeder
+[2026-04-09 19:55:04]    Monday  20:25  Tavily Feeder
+[2026-04-09 19:55:04]    Monday  20:35  Reddit Watcher
+[2026-04-09 19:55:04]    Monday  20:50  Vector DB Update
+[2026-04-09 19:55:04] Scheduler running. Press Ctrl+C to stop.
+
+[2026-04-09 20:00:04] [START] RSS Feeder — daily collect
+[2026-04-09 20:00:13] [OK]   RSS Feeder — daily collect (9s)
+[2026-04-09 20:00:13]       [3/4] Removing duplicates...
+[2026-04-09 20:00:13]       Deduplicated: 42 → 42 unique articles
+[2026-04-09 20:00:13]       [4/4] Storing to database...
+[2026-04-09 20:00:13]       Saved 14 new articles, skipped 28 duplicates
+[2026-04-09 20:00:13]       ✅ Done. 42 new articles stored.
+[2026-04-11 20:27:50] =======================================================
+[2026-04-11 20:27:50] Marketing Agents Scheduler — starting
+[2026-04-11 20:27:50] =======================================================
+[2026-04-11 20:27:50] Project root : C:\Users\acer\PycharmProjects\Marketing_agents
+[2026-04-11 20:27:51] Python       : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-11 20:27:51] Log file     : C:\Users\acer\PycharmProjects\Marketing_agents\scheduler_log.txt
+[2026-04-11 20:27:51] Start time   : 2026-04-11 20:27:51
+[2026-04-11 20:27:51] Pre-flight check...
+[2026-04-11 20:27:51]    Python : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-11 20:27:51]    [OK]   Venv Python found
+[2026-04-11 20:27:51]    [OK] Serpi_feeder/.env -> SERPAPI_KEY
+[2026-04-11 20:27:51]    [OK] tavily_feeder/.env -> TAVILY_API_KEY
+[2026-04-11 20:27:51]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_ID
+[2026-04-11 20:27:51]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_SECRET
+[2026-04-11 20:27:51] All credentials found.
+[2026-04-11 20:27:51] Schedules set:
+[2026-04-11 20:27:51]    Daily   20:00  RSS Feeder
+[2026-04-11 20:27:51]    Monday  20:05  Weekly Digest
+[2026-04-11 20:27:51]    Monday  20:15  Serpi Feeder
+[2026-04-11 20:27:51]    Monday  20:25  Tavily Feeder
+[2026-04-11 20:27:51]    Monday  20:35  Reddit Watcher
+[2026-04-11 20:27:51]    Monday  20:50  Vector DB Update
+[2026-04-11 20:27:51] Scheduler running. Press Ctrl+C to stop.
+
+[2026-04-12 19:55:04] =======================================================
+[2026-04-12 19:55:04] Marketing Agents Scheduler — starting
+[2026-04-12 19:55:04] =======================================================
+[2026-04-12 19:55:04] Project root : C:\Users\acer\PycharmProjects\Marketing_agents
+[2026-04-12 19:55:04] Python       : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-12 19:55:04] Log file     : C:\Users\acer\PycharmProjects\Marketing_agents\scheduler_log.txt
+[2026-04-12 19:55:04] Start time   : 2026-04-12 19:55:04
+[2026-04-12 19:55:04] Pre-flight check...
+[2026-04-12 19:55:04]    Python : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-12 19:55:04]    [OK]   Venv Python found
+[2026-04-12 19:55:04]    [OK] Serpi_feeder/.env -> SERPAPI_KEY
+[2026-04-12 19:55:04]    [OK] tavily_feeder/.env -> TAVILY_API_KEY
+[2026-04-12 19:55:04]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_ID
+[2026-04-12 19:55:04]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_SECRET
+[2026-04-12 19:55:04] All credentials found.
+[2026-04-12 19:55:04] Schedules set:
+[2026-04-12 19:55:04]    Daily   20:00  RSS Feeder
+[2026-04-12 19:55:04]    Monday  20:05  Weekly Digest
+[2026-04-12 19:55:04]    Monday  20:15  Serpi Feeder
+[2026-04-12 19:55:04]    Monday  20:25  Tavily Feeder
+[2026-04-12 19:55:04]    Monday  20:35  Reddit Watcher
+[2026-04-12 19:55:04]    Monday  20:50  Vector DB Update
+[2026-04-12 19:55:04] Scheduler running. Press Ctrl+C to stop.
+
+[2026-04-12 20:00:04] [START] RSS Feeder — daily collect
+[2026-04-12 20:00:15] [OK]   RSS Feeder — daily collect (10s)
+[2026-04-12 20:00:15]       [3/4] Removing duplicates...
+[2026-04-12 20:00:15]       Deduplicated: 44 → 44 unique articles
+[2026-04-12 20:00:15]       [4/4] Storing to database...
+[2026-04-12 20:00:15]       Saved 18 new articles, skipped 26 duplicates
+[2026-04-12 20:00:15]       ✅ Done. 44 new articles stored.
+[2026-04-13 19:55:02] =======================================================
+[2026-04-13 19:55:02] Marketing Agents Scheduler — starting
+[2026-04-13 19:55:02] =======================================================
+[2026-04-13 19:55:02] Project root : C:\Users\acer\PycharmProjects\Marketing_agents
+[2026-04-13 19:55:02] Python       : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-13 19:55:02] Log file     : C:\Users\acer\PycharmProjects\Marketing_agents\scheduler_log.txt
+[2026-04-13 19:55:02] Start time   : 2026-04-13 19:55:02
+[2026-04-13 19:55:02] Pre-flight check...
+[2026-04-13 19:55:02]    Python : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-13 19:55:02]    [OK]   Venv Python found
+[2026-04-13 19:55:02]    [OK] Serpi_feeder/.env -> SERPAPI_KEY
+[2026-04-13 19:55:02]    [OK] tavily_feeder/.env -> TAVILY_API_KEY
+[2026-04-13 19:55:02]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_ID
+[2026-04-13 19:55:02]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_SECRET
+[2026-04-13 19:55:02] All credentials found.
+[2026-04-13 19:55:02] Schedules set:
+[2026-04-13 19:55:02]    Daily   20:00  RSS Feeder
+[2026-04-13 19:55:02]    Monday  20:05  Weekly Digest
+[2026-04-13 19:55:02]    Monday  20:15  Serpi Feeder
+[2026-04-13 19:55:02]    Monday  20:25  Tavily Feeder
+[2026-04-13 19:55:02]    Monday  20:35  Reddit Watcher
+[2026-04-13 19:55:02]    Monday  20:50  Vector DB Update
+[2026-04-13 19:55:02] Scheduler running. Press Ctrl+C to stop.
+
+[2026-04-13 20:00:02] [START] RSS Feeder — daily collect
+[2026-04-13 20:00:12] [OK]   RSS Feeder — daily collect (9s)
+[2026-04-13 20:00:12]       [3/4] Removing duplicates...
+[2026-04-13 20:00:12]       Deduplicated: 44 → 44 unique articles
+[2026-04-13 20:00:12]       [4/4] Storing to database...
+[2026-04-13 20:00:12]       Saved 4 new articles, skipped 40 duplicates
+[2026-04-13 20:00:12]       ✅ Done. 44 new articles stored.
+[2026-04-13 20:05:12] [START] Weekly Digest — top articles
+[2026-04-13 20:05:12] [OK]   Weekly Digest — top articles (0s)
+[2026-04-13 20:05:12]            https://www.cnx-software.com/2026/04/10/bee-write-back-a-raspberry-pi-zero-2-w-based-diy-writerdeck-with-5-5-inch-oled-and-mechanical-keyboard/
+[2026-04-13 20:05:12]         4. [2 pts] $2 WeAct CH32V006F8U6 Mini Core board features CH32V006 RISC-V MCU, supports 3.3
+[2026-04-13 20:05:12]            https://www.cnx-software.com/2026/04/06/2-weact-ch32v006f8u6-mini-core-board-features-ch32v006-risc-v-mcu-supports-3-3v-or-5v-i-o-voltage/
+[2026-04-13 20:05:12]         5. [2 pts] UmbrelOS – A Debian-based personal home cloud OS with a slick user interface
+[2026-04-13 20:05:12]            https://www.cnx-software.com/2026/04/12/umbrelos-a-debian-based-personal-home-cloud-os-with-a-slick-user-interface/
+[2026-04-13 20:15:12] [START] Serpi Feeder — Google Trends
+[2026-04-13 20:15:14] [OK]   Serpi Feeder — Google Trends (1s)
+[2026-04-13 20:15:14]        📊 Credit Status — April 2026
+[2026-04-13 20:15:14]       ==================================================
+[2026-04-13 20:15:14]         [░░░░░░░░░░░░░░░░░░░░] 2.4%
+[2026-04-13 20:15:14]         Used: 6 / 250  |  Remaining: 244
+[2026-04-13 20:15:14]       ==================================================
+[2026-04-13 20:25:14] [START] Tavily Feeder — competitor research
+[2026-04-13 20:26:15] [OK]   Tavily Feeder — competitor research (61s)
+[2026-04-13 20:26:15]         Query: Raspberry Pi 5 vs competitors benchmark
+[2026-04-13 20:26:15]           • Raspberry Pi 5 vs. Orange Pi 5 Plus vs. Rock 5 Model B | PiCockpit
+[2026-04-13 20:26:15]             https://picockpit.com/raspberry-pi/raspberry-pi-5-vs-orange-pi-5-plus-vs-rock-5-model-b/
+[2026-04-13 20:26:15]           • Raspberry Pi 5 vs. Pi 4 AI performance CPU Benchmark
+[2026-04-13 20:26:15]             https://www.seeedstudio.com/blog/2023/09/28/raspberry-pi-5-vs-pi-4-ai-performance-cpu-benchmark-how-much-leap-forward/?srsltid=AfmBOooy8wtZgBB3AlNKGncLswIv7kF_Ttz41Us-zKLp_9GdXFw0AJAD
+[2026-04-13 20:35:15] [START] Reddit Watcher — subreddit scraping
+[2026-04-13 20:37:28] [OK]   Reddit Watcher — subreddit scraping (132s)
+[2026-04-13 20:37:28]         1. [1060 pts] r/raspberry_pi — Made a tiny device that writes code, takes breaks to hang out on a BBS
+[2026-04-13 20:37:28]         2. [982 pts] r/esp32 — My New Build Flash Bee an Handheld Lightning Sensing and Ranging Devic
+[2026-04-13 20:37:28]         3. [845 pts] r/esp32 — ​I absolutely love cheap alternatives. Got this phone screen running o
+[2026-04-13 20:37:28]         4. [774 pts] r/raspberry_pi — Amazing what an RPi can power
+[2026-04-13 20:37:28]         5. [756 pts] r/homeassistant — Tell Me This Is A Bad Idea
+[2026-04-13 20:50:29] [START] Vector DB — update index
+[2026-04-13 20:52:09] [OK]   Vector DB — update index (99s)
+[2026-04-13 20:52:09]          Sources    : 3
+[2026-04-13 20:52:09]          Indexed sources:
+[2026-04-13 20:52:09]            • radxa_rock5a_product_brief.pdf — 20 chunks (2026-04-06)
+[2026-04-13 20:52:09]            • radxa_rock5c_product_brief.pdf — 20 chunks (2026-04-06)
+[2026-04-13 20:52:09]            • radxa_rock_pi_s_product_brief_Revision_1.2.pdf — 13 chunks (2026-04-06)
+[2026-04-14 19:55:03] =======================================================
+[2026-04-14 19:55:03] Marketing Agents Scheduler — starting
+[2026-04-14 19:55:03] =======================================================
+[2026-04-14 19:55:03] Project root : C:\Users\acer\PycharmProjects\Marketing_agents
+[2026-04-14 19:55:03] Python       : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-14 19:55:03] Log file     : C:\Users\acer\PycharmProjects\Marketing_agents\scheduler_log.txt
+[2026-04-14 19:55:03] Start time   : 2026-04-14 19:55:03
+[2026-04-14 19:55:03] Pre-flight check...
+[2026-04-14 19:55:03]    Python : C:\Users\acer\PycharmProjects\Marketing_agents\.venv\Scripts\python.exe
+[2026-04-14 19:55:03]    [OK]   Venv Python found
+[2026-04-14 19:55:03]    [OK] Serpi_feeder/.env -> SERPAPI_KEY
+[2026-04-14 19:55:04]    [OK] tavily_feeder/.env -> TAVILY_API_KEY
+[2026-04-14 19:55:04]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_ID
+[2026-04-14 19:55:04]    [OK] reddit_watcher/.env -> REDDIT_CLIENT_SECRET
+[2026-04-14 19:55:04] All credentials found.
+[2026-04-14 19:55:04] Schedules set:
+[2026-04-14 19:55:04]    Daily   20:00  RSS Feeder
+[2026-04-14 19:55:04]    Monday  20:05  Weekly Digest
+[2026-04-14 19:55:04]    Monday  20:15  Serpi Feeder
+[2026-04-14 19:55:04]    Monday  20:25  Tavily Feeder
+[2026-04-14 19:55:04]    Monday  20:35  Reddit Watcher
+[2026-04-14 19:55:04]    Monday  20:50  Vector DB Update
+[2026-04-14 19:55:04] Scheduler running. Press Ctrl+C to stop.
+
+[2026-04-14 20:00:04] [START] RSS Feeder — daily collect
+[2026-04-14 20:00:18] [OK]   RSS Feeder — daily collect (14s)
+[2026-04-14 20:00:18]       [3/4] Removing duplicates...
+[2026-04-14 20:00:18]       Deduplicated: 47 → 47 unique articles
+[2026-04-14 20:00:18]       [4/4] Storing to database...
+[2026-04-14 20:00:18]       Saved 10 new articles, skipped 37 duplicates
+[2026-04-14 20:00:18]       ✅ Done. 47 new articles stored.
